@@ -4,7 +4,7 @@
 -- module.func3();
 --------------------------------------------------------
 
--- ��������m
+-- 变量别名m
 local m = require("module");
 
 print(module.constant);

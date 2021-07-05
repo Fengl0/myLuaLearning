@@ -1,17 +1,17 @@
--- ÎÄ¼þÃûÎª module.lua
--- ¶¨ÒåÒ»¸öÃûÎª module µÄÄ£¿é
+-- æ–‡ä»¶åä¸º module.lua
+-- å®šä¹‰ä¸€ä¸ªåä¸º module çš„æ¨¡å—
 module = {}
  
--- ¶¨ÒåÒ»¸ö³£Á¿
-module.constant = "ÕâÊÇÒ»¸ö³£Á¿"
+-- å®šä¹‰ä¸€ä¸ªå¸¸é‡
+module.constant = "è¿™æ˜¯ä¸€ä¸ªå¸¸é‡"
  
--- ¶¨ÒåÒ»¸öº¯Êý
+-- å®šä¹‰ä¸€ä¸ªå‡½æ•°
 function module.func1()
-    io.write("ÕâÊÇÒ»¸ö¹«ÓÐº¯Êý\n")
+    io.write("è¿™æ˜¯ä¸€ä¸ªå…¬æœ‰å‡½æ•°\n")
 end
  
 local function func2()
-    print("ÕâÊÇÒ»¸öË½ÓÐº¯Êý£¡")
+    print("è¿™æ˜¯ä¸€ä¸ªç§æœ‰å‡½æ•°")
 end
  
 function module.func3()
